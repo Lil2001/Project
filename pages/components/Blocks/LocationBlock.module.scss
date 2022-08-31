@@ -1,0 +1,96 @@
+.locationBlock {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 50px;
+
+    &__firstDiv {
+        width: 50%;
+
+        &__imageDiv {
+            position: relative;
+
+
+            >p {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 21px;
+                color: #838383;
+                position: absolute;
+                left: 0;
+                top: 0
+            }
+
+
+            &_imgfirst {
+                margin-right: 10px;
+            }
+
+        }
+
+        &__locationName {
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+            display: flex;
+
+            >p {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 16px;
+
+                color: #151529;
+            }
+        }
+
+        &__photoDiv {
+            width: 100%;
+            border-radius: 12px;
+            height: 250px;
+            background-image: url('../../../public/images/image11.png');
+            background-position: center;
+            background-size: cover;
+            margin-top: 10px;
+        }
+
+        &__imageSizesBlock {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 15px;
+        }
+
+        &__imageBlock {
+            position: relative;
+
+            &__textDiv {
+                position: absolute;
+                bottom: 20px;
+
+                >p {
+                    // font-family: 'Raleway';
+                    font-style: normal;
+                    // font-weight: 600;
+                    font-size: 15.0723px;
+                    line-height: 123.4%;
+                    letter-spacing: 0.02em;
+                    font-feature-settings: 'pnum' on, 'lnum' on;
+                    color: #FFFFFF;
+                }
+
+                &__small {
+                    display: flex;
+                    align-items: center;
+                }
+            }
+
+        }
+
+    }
+}

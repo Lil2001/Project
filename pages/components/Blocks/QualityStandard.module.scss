@@ -1,0 +1,57 @@
+.qualityStandardBlock {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 90px;
+
+    &__firstDiv {
+        width: 50%;
+        padding-top:45px;
+
+        &__textBlock {
+            width: 100%;
+            // margin-top: 90px;
+            justify-content: space-between;
+            display: flex;
+            align-items: center;
+
+            &__green {
+                margin-left: 15px;
+
+                >h2 {
+                    font-family: 'Raleway';
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 55px;
+                    line-height: 65px;
+                    font-feature-settings: 'pnum' on, 'lnum' on;
+                    color: #01A743;
+                }
+
+                >p {
+                    font-family: 'Raleway';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 16px;
+                    font-feature-settings: 'pnum' on, 'lnum' on;
+                    color: #000000;
+
+                }
+
+                >span {
+                    font-family: 'Raleway';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 12px;
+                    line-height: 14px;
+                    font-feature-settings: 'pnum' on, 'lnum' on;
+
+                    color: #8D8D8D;
+
+                }
+            }
+        }
+    }
+}
